@@ -12,7 +12,7 @@ import { ShoppingListComponent } from "./shopping-list.component";
 			ShoppingEditComponent,			
 		],
 		imports: [RouterModule.forChild([
-			{ path: 'shopping-list', component: ShoppingListComponent },]), CommonModule, FormsModule],
+			{ path: '', component: ShoppingListComponent },]), CommonModule, FormsModule],
 		providers: [],
 		bootstrap: []
 	}
